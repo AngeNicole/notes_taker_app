@@ -16,7 +16,7 @@ class NotesScreen extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Your Notes'),
-        backgroundColor: Colors.blue[600],
+        backgroundColor: Colors.teal[600],
         foregroundColor: Colors.white,
         actions: [
           IconButton(
@@ -89,7 +89,7 @@ class NotesScreen extends ConsumerWidget {
             ),
           );
         },
-        backgroundColor: Colors.blue[600],
+        backgroundColor: Colors.teal[600],
         foregroundColor: Colors.white,
         child: const Icon(Icons.add),
       ),
