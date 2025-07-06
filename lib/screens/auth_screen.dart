@@ -30,7 +30,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(_isSignUp ? 'Sign Up' : 'Sign In'),
-        backgroundColor: Colors.blue[600],
+        backgroundColor: Colors.teal[600],
         foregroundColor: Colors.white,
       ),
       body: Padding(
@@ -40,7 +40,7 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.note_alt_outlined, size: 80, color: Colors.blue[600]),
+              Icon(Icons.note_alt_outlined, size: 80, color: Colors.teal[600]),
               const SizedBox(height: 32),
               TextFormField(
                 controller: _emailController,
