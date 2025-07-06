@@ -21,7 +21,7 @@ class MyApp extends ConsumerWidget {
 
     return MaterialApp(
       title: 'Notes App',
-      theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
+      theme: ThemeData(primarySwatch: Colors.teal, useMaterial3: true),
       home: isAuthenticated ? const NotesScreen() : const AuthScreen(),
       debugShowCheckedModeBanner: false,
     );
